@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rebeccapurple;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: white;
 }
 
 /* TRANSITION */
@@ -38,7 +39,9 @@ nav {
   align-items: center;
   height: 17vh;
 }
-
+.text-container {
+  color: white;
+}
 .nav-links {
   gap: 2rem;
   list-style: none;
